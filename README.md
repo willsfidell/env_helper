@@ -1,6 +1,6 @@
 # ENV File Processor
 
-This repository contains two implementations of an ENV file processor - one in Bash and one in Python. Both scripts provide functionality to compare and format `.env` files.
+This repository contains a script provide functionality to compare and format `.env` files.
 
 ## Features
 
@@ -13,26 +13,7 @@ This repository contains two implementations of an ENV file processor - one in B
   - Preserved comments associated with their variables
   - Blank lines between different prefix groups
 
-## Implementations
-
-### Bash Version (`env_helper.sh`)
-
-Requirements:
-- Bash shell
-
-Usage:
-```bash
-# Compare two .env files
-./env-processor.sh -c file1.env file2.env
-
-# Format an .env file
-./env-processor.sh -f file.env
-```
-
-### Python Version (`env_helper.py`)
-
-Requirements:
-- Python 3.11 or higher
+## Implementation
 
 Usage:
 ```bash
